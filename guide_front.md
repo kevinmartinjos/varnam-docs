@@ -26,3 +26,6 @@ Subscribe to the varnam [mailing list](https://lists.nongnu.org/mailman/listinfo
 
 [getting_started]: guide_getting_started.md
 
+[Prev](guide_getting_started.md)
+[Next](guide_adding_word_corpus.md)
+
