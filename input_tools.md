@@ -53,4 +53,7 @@ Finally, press the add button to add malayalam to ibus.
 
 Now all you have to do is left click on the I-BUS tray and choose your language of choice. Better yet, press ctrl+space on the keyboard to instantly switch languages. Open a text editor (gedit would be great) and start typing. You should see varnam suggesting words corresponding to your keystrokes. No? Then you've missed a step or two somewhere. No? Then I've probably missed a thing or two when I wrote this. As before, you can seek help from the [mailing list](https://lists.nongnu.org/mailman/listinfo/varnamproject-discuss) or _#varnamproject_ at Freenode.
 
+######[Next](guide_adding_word_corpus.md)
+######[Prev](guide_getting_started.md)
+
 
