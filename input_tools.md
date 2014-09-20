@@ -35,7 +35,9 @@ If you do have git installed, typing `git clone https://github.com/varnamproject
 Now that you've downloaded the engine, `cd` to that directory on your terminal and type in the following commands one after the other :
 
 `cmake .`
+
 `make`
+
 `sudo make install`
 
 That should configure and install the varnam ibus engine on your linux machine. Now restart your computer (or restart I-BUS by right clicking on its tray icon and choosing 'restart').
