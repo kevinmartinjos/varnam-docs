@@ -53,6 +53,10 @@ Doing so will create a .vst (varnam symbol table) file in the /schemes directory
 
 However, we need the .vst file somewhere else if varnam can use it. Type in `sudo make install` again and this will send the .vst file to where it belongs.
 
+To see if you've done everything right, we will try out the varnam command line tool. Type `varnamc -s ml -t varnam` to transliterate 'varnam' to the equivalent in malayalam. Do not forget to replace 'ml' with the language of your choice.
+
+If you had compiled varnam with `-DBUILD_TESTS=true`, then you can run the unit tests to see if everything has been set up correctly. `cd` to the /tests directory and run the tests with `./runtests`.
+
 That's it! You've successfully configured libvarnam. Now we move onto more exciting parts.
 
 ######[Next][input tools]
