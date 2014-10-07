@@ -26,8 +26,12 @@ Extract the download libvarnam tarball and navigate to the directory using the `
 In the terminal, type **_one_** of the following commands to compile libvarnam
 
 `cmake .` - to build the source
-`cmake -DBUILD_EXAMPLES=true .` - to build the source and contents in the /examples directory
+
+`cmake -DBUILD_EXAMPLES=true .` - to build the source and contents in the /
+examples directory
+
 `cmake -DBUILD_TESTS=true .` - to build the source and the unit tests
+
 `cmake -DCMAKE_BUILD_TYPE=debug .` - to build the source with the debug flag on
 
 You can combine two or more options as follows :
