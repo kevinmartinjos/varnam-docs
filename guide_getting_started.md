@@ -62,5 +62,5 @@ That's it! You've successfully configured libvarnam. Now we move onto more excit
 ######[Next][input tools]
 ######[Prev][front page]
 
-[input tools]: input_tools.md
+[input tools]: guide_input_tools.md
 [front page]: guide_front.md
