@@ -21,7 +21,7 @@ That would result in varnam learning all the words in all the text files contain
 
 `varnamc -s ml --learn-from words/01.txt`
 
-Try using varnam again and you should see better suggestions.
+Try using varnam again and you should see better suggestions. If not, try restarting ibus-daemon (right click on the icon on the panel -> restart) and try again.
 
 ######[Next](link)
 ######[Prev](guide_input_tools.md)

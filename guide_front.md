@@ -12,6 +12,14 @@ Here is an example of English to Hindi transliteration using varnam :
 
 >bhaarateey -> भारतीय
 
+####How does varnam work?
+
+Varnam is based on phonetic transliteration, and defines a particular scheme for each language. libvarnam is the core library that all Varnam projects use. It is a shared library that implements a transliterator, a reverse transliterator and a learning subsystem.
+
+libvarnam is a learning program, that is, it can learn words as you type. It stores the words it has learned, and makes use of this knowledge to provide suggestions while transliterating.
+
+For instance, to input the text "മലയാളം", in other phonetic based transliteration systems, you will have to input "malayaaLam". But in Varnam, just inputting "malayalam" can give you the word "മലയാളം". Varnam knows about half a million Malayalam words as of now, and it gets better with more use. Varnam can ease the input time considerably for beginners, compared to other transliteration systems.
+
 #### Where can I download varnam?
 
 Currently there are no packages available for any operating system. You will have to download the source code and compile varnam. The [getting started][getting_started] guide will tell you how to do that. If you want to jump in and test varnam right away, check out the [online editor](http://www.varnamproject.com/editor). The online editor currently supports transliteration to Malayalam and Hindi from English.
@@ -19,6 +27,8 @@ Currently there are no packages available for any operating system. You will hav
 A firefox addon for varnam is available [here](https://addons.mozilla.org/en-US/firefox/addon/varnam-transliteration-base/). 
 
 #### Is varnam free?
+
+Varnam is free as in free beer and free as in freedom.
 
 Copyright (c) 2014 Navaneeth.K.N
 

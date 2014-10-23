@@ -14,7 +14,7 @@ You need to have the following packages installed :
 + libibus-dev >= 1.5.
 + glib. Try `sudo apt-get install libglib2.0-0`
 + libvarnam. Already installed if you had followed the instructions [here](guide_getting_started.md)
-+ ibus-qt4 or ibus-gtk3 or ibus-gtk depending on your linux flavor. If you're unsure, install ibus-gtk3. `sudo apt-get install ibus-gtk3` 
++ ibus-qt4 or ibus-gtk3 or ibus-gtk depending on your linux flavor. If you're unsure, install ibus-gtk3 and ibus-gtk. `sudo apt-get install ibus-gtk3 ibus-gtk` 
 + git [optional]. We need this to clone the source code hosted at github. `sudo apt-get install git`
 
 #####Make I-BUS the default input method
@@ -23,7 +23,7 @@ If you've installed the above packages, ibus should be installed in your compute
 
 ![ibus system tray](screenshots/ibus_tray.png)
 
-Change your default input method to ibus. Searching for 'input method' from dashboard(ubuntu) or the menu(cinnamon/linux mint and KDE/kubuntu) can directly take you to the settings.
+Please note that the icon that appears on bottom right of your computer (or wherever your desktop panel is) might vary between distributions. Change your default input method to ibus. Searching for 'input method' from dashboard(ubuntu) or the menu(cinnamon/linux mint and KDE/kubuntu) can directly take you to the settings.
 
 #####Adding varnam to ibus
 
