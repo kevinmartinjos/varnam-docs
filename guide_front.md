@@ -15,7 +15,9 @@ Here is an example of English to Hindi transliteration using varnam :
 ####Credits
 
 [Sqlite](http://sqlite.org/) - Awesome tiny database that powers varnam
+
 [Thoughtworks technologies](http://www.thoughtworks.com/) - For providing the server
+
 [Swathanthra Malayalam Computing(SMC)](http://smc.org.in/) - For all the support and adding varnam tothe SMC umbrella.
 
 ####How does varnam work?
