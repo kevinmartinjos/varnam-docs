@@ -12,6 +12,12 @@ Here is an example of English to Hindi transliteration using varnam :
 
 >bhaarateey -> भारतीय
 
+####Credits
+
+[Sqlite](http://sqlite.org/) - Awesome tiny database that powers varnam
+[Thoughtworks technologies](http://www.thoughtworks.com/) - For providing the server
+[Swathanthra Malayalam Computing(SMC)](http://smc.org.in/) - For all the support and adding varnam tothe SMC umbrella.
+
 ####How does varnam work?
 
 Varnam is based on phonetic transliteration, and defines a particular scheme for each language. libvarnam is the core library that all Varnam projects use. It is a shared library that implements a transliterator, a reverse transliterator and a learning subsystem.
