@@ -15,6 +15,7 @@ You need to have the following packages installed :
 + glib. Try `sudo apt-get install libglib2.0-0`
 + libvarnam. Already installed if you had followed the instructions [here](guide_getting_started.md)
 + ibus-qt4 or ibus-gtk3 or ibus-gtk depending on your linux flavor. If you're unsure, install ibus-gtk3 and ibus-gtk. `sudo apt-get install ibus-gtk3 ibus-gtk` 
++ Install curl using `sudo apt-get install libcurl4-gnutls-dev`
 + git [optional]. We need this to clone the source code hosted at github. `sudo apt-get install git`
 
 #####Make I-BUS the default input method
